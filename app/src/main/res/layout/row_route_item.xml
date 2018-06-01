@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/drawable_layout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tuyến Đường: "
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+
+        <TextView
+            android:id="@+id/txtTuyenDuong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="01"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tên Đường: "
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+
+        <TextView
+            android:id="@+id/txtTenDuong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tôn Đức Thắng"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Khoảng Cách VL: "
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+
+        <TextView
+            android:id="@+id/txtKhoangCach"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tôn Đức Thắng"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bến đi:"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+
+        <TextView
+            android:id="@+id/txtBenDi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tôn Đức Thắng"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bến Đỗ:"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+
+        <TextView
+            android:id="@+id/txtBenDo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tôn Đức Thắng"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tần xuất:"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+
+        <TextView
+            android:id="@+id/txttansuat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tôn Đức Thắng"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Gía vé:"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+
+        <TextView
+            android:id="@+id/txtGiaVe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tôn Đức Thắng"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Giờ mở bến:"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+
+        <TextView
+            android:id="@+id/txtGioMo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tôn Đức Thắng"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Giờ đóng bến:"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+
+        <TextView
+            android:id="@+id/txtGioDong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tôn Đức Thắng"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnTimGhe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/drawable_layout"
+        android:text="Tìm Ghế"
+        android:textColor="#f00" />
+</LinearLayout>

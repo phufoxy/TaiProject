@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vanphu.project_tai.DatVeActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drawable_layout"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mã Vé: "
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtDatVe" />
+
+                <TextView
+                    android:id="@+id/txtMaVe"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="01"
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtDatVe" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ngày SX: "
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtDatVe" />
+
+                <TextView
+                    android:id="@+id/txtNgaySX"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Xe B03"
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtDatVe" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="NGày HH:"
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtDatVe" />
+
+                <TextView
+                    android:id="@+id/txtNgayhh"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="43A-13256"
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtDatVe" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mã Tuyến Đường:"
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtName" />
+
+                <TextView
+                    android:id="@+id/txtMaTuyenDuong"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="12"
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtDatVe" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tình Trạng:"
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtDatVe" />
+
+                <TextView
+                    android:id="@+id/txtTinhTrang"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="12"
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtDatVe" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mã ghế ngồi:"
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtDatVe" />
+
+                <TextView
+                    android:id="@+id/txtMaGheNgoi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="12"
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtDatVe" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mã trạm dừng:"
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtDatVe" />
+
+                <TextView
+                    android:id="@+id/txtMatramdung"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="12"
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtDatVe" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Giá Vé:"
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtDatVe" />
+
+                <TextView
+                    android:id="@+id/txtGiaVe"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="12"
+                    android:textColor="#151414"
+                    android:textSize="@dimen/txtDatVe" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnDatGhe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/drawable_layout"
+                android:text="Đặt Vé"
+                android:textColor="#f00" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

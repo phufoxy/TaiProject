@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/drawable_layout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Xe Buýt: "
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+
+        <TextView
+            android:id="@+id/txtXeBuyt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="01"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Số hiệu xe: "
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+
+        <TextView
+            android:id="@+id/txtSoHieu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Xe B03"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mã Số Xe:"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+
+        <TextView
+            android:id="@+id/txtMaSoXe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="43A-13256"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Số ghế trống:"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+
+        <TextView
+            android:id="@+id/txtSoGheTrong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="12"
+            android:textColor="#151414"
+            android:textSize="@dimen/txtName" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDatGhe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/drawable_layout"
+        android:text="Đặt Ghế"
+        android:textColor="#f00" />
+</LinearLayout>
